@@ -83,3 +83,30 @@ Para finalizar la practica, solo compartiremos el archivo ejecutable con otro or
 ## BIBLIOTECAS DINAMICAS
 Una librería dinámica se carga en el momento de la ejecución del programa, según las va necesitando. El ejecutable NO lleva copia de las funciones de la librería y necesita la librería para funcionar. Si te llevas el ejecutable a otro ordenador, debes llevarte también la librería o asegurarte que ya está allí. La ventaja es que el ejecutable suele ser más pequeño.
 
+*PRACTICA*
+
+En la seccion de readmi se encuentran los archivos que utilizaremos:
+
++ foo.h
++ foo.cpp
++ main.cpp
+
+Se tiene que crear otra carpeta para guardar los archivos. Compilaremos la biblioteca utilizando el comando: *g++ -fPIC --shared -o foo.dll foo.cpp*.
+
+El comando anterior compila *foo.cpp* como biblioteca compartida (-shared) con PIC (position independent code). El codigo objeto de la biblioteca se guarda en *foo.dll*.
+
+Para explorar la biblioteca usamos el comando *nm foo.dll*. 
+
+Para ligar la biblioteca compartida con el programa principal utilizamos el comando: *g++ -L. -lfoo -o main main.cpp*.
+
++ -L agrega el directorio actual a la ruta de busaqueda del ligador.
++ -lfoo especifica el nombre de la biblioteca que va a ligarse.
+
+Para finalizar la practica, compartiremos el archivo ejecutable con otro ordenador.
+
+
+
+
+
+
+
