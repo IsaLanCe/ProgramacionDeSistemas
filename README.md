@@ -11,6 +11,8 @@ Para realizar la suma se tenia una instrucción binaria muy similar a "001010100
 
 Actualmente manejamos lenguajes de Alto nivel que son relativamente sencillos a comparación con el lenguaje maquina. Pero no se llego al alto nivel desde el código binario, existe un lenguaje que nació para facilitar el binary code. Este se llama **"LENGUAJE ENSAMBLADOR"**.
 
+![ENIAC](C:\Users\Landa Cervantes\Downloads\eniac2.jpg)
+
 ### Sintaxis
 Nombre de la instrucción Operando 1, Operando 2, Operando 3, Operando 4, Operando N. 
 El nombre de la instrucción está formada por 2 o 3 letras, los operandos pueden ser registros, constantes o direcciones de memoria. La cantidad de operandos dependerá de la instrucción.
