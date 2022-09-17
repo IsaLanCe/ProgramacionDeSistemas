@@ -50,6 +50,7 @@ Con esto terminariamos el proceso de compilacion, desde un archivo ensamblador h
 Una librería estática se carga al compilar el programa. Las funciones necesarias de esa librería se copian en tu ejecutable. Si te llevas el ejecutable de un ordenador a otro, el programa funcionará igualmente, aunque en el nuevo ordenador no esté la librería, ya que el ejecutable tiene su propia copia. El problema es que el ejecutable será más grande, ya que lleva copia de las funciones de la librería.
 
 *PRACTICA*
+
 En la seccion de readmi se encuentran los archivos que utilizaremos:
 
 + foo.h
