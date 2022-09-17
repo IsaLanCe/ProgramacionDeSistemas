@@ -47,6 +47,8 @@ Con esto terminariamos el proceso de compilacion, desde un archivo ensamblador h
 
 
 ## BIBLIOTECAS ESTATICAS
-
+Una librería estática se carga al compilar el programa. Las funciones necesarias de esa librería se copian en tu ejecutable. Si te llevas el ejecutable de un ordenador a otro, el programa funcionará igualmente, aunque en el nuevo ordenador no esté la librería, ya que el ejecutable tiene su propia copia. El problema es que el ejecutable será más grande, ya que lleva copia de las funciones de la librería.
 
 ## BIBLIOTECAS DINAMICAS
+Una librería dinámica se carga en el momento de la ejecución del programa, según las va necesitando. El ejecutable NO lleva copia de las funciones de la librería y necesita la librería para funcionar. Si te llevas el ejecutable a otro ordenador, debes llevarte también la librería o asegurarte que ya está allí. La ventaja es que el ejecutable suele ser más pequeño.
+
