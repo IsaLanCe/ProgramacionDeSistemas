@@ -59,6 +59,24 @@ En la seccion de readmi se encuentran los archivos que utilizaremos:
 + foo.cpp
 + main.cpp
 
+Crearemos una carpeta para guardar los archivos. Despues abriremos una pestaña de linea de comando en el cual enviaremos la direccion de nuestros archivos. Cuando tengamos eso, insertaremos el comando: *g++ -c foo.cpp*. Este generara un archivo con extension *.o* el cual es codigo objeto. 
+
+Creamos la libreria estatica a partir del codigo objeto. Utilizamos el siguiente comando: *ar rcs libfoo.a foo.o*.
+
++ La r indica que se insertara objeto al archivo.
++ La c indica que se esta creando un archivo.
++ La s indica que se agrego un indice al aricho creado.
+Por sintaxis de g++, el archivo creado debe de contener la palabra **lib**.
+
+Ahora se ligara la biblioteca estatica con el programa principal: *g++ -c main.cpp*, el cual creara un archivo *main.o* en el que se estara convertido a codigo objeto.
+
+Crearemos el archivo ejecutable a partir del codigo objeto. Utilizaremos el comando: *g++ -o main.exe main.o -L. -lfoo*. 
++ -L agrega el directorio actual a la ruta de busqueda del ligador.
++ -lfoo especifica el nombre de la biblioteca que va a ligarse.
+
+Para finalizar la practica, solo compartiremos el archivo ejecutable con otro ordenador.
+
+
 ## BIBLIOTECAS DINAMICAS
 Una librería dinámica se carga en el momento de la ejecución del programa, según las va necesitando. El ejecutable NO lleva copia de las funciones de la librería y necesita la librería para funcionar. Si te llevas el ejecutable a otro ordenador, debes llevarte también la librería o asegurarte que ya está allí. La ventaja es que el ejecutable suele ser más pequeño.
 
