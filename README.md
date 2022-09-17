@@ -28,7 +28,7 @@ Cada arquitectura de microprocesador tiene su propio lenguaje de máquina, y en 
 
 ##### *PRACTICA*
 
-El primer paso sera abrir un archivo de Notepad++ y copiar el contenido del archivo hola.asm y lo debemos de gaurdar con el tipo de *Asambly* y con el nombre que nosotros deseemos.
+El primer paso sera abrir un archivo de Notepad++ y copiar el contenido del archivo hola.asm y lo debemos de guardar con el tipo de *Asambly* y con el nombre que nosotros deseemos.
 Cuando tengamos ese archivo en una carpeta, abrimos nuestra linea de comando e insertaremos la direccion donde se encuentra nuestro archivo ensamblador. Se pondra el comando: nasm -fwin32 con el nombre del archivo ensamblador.
 Ejemplo: *nasm -fwin32 ./hola.asm* (al insertar la primera letra de nuestro archivo, podremos acompletarlo con la tecla TAB).
 
