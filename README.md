@@ -14,6 +14,11 @@ Actualmente manejamos lenguajes de Alto nivel que son relativamente sencillos a 
 ![ENIAC](C:\Users\Landa Cervantes\Downloads\eniac2.jpg)
 ![The first computer Eniac!](/assets/Downloads/eniac2.jpg "Eniac")
 
+### TRADCUTOR 
+Un programa traductor lee un archivo en código fuente línea por línea, y escribe un archivo binario de instrucciones de maquina que realiza las acciones de computadora que el archivo de código fuente describe. Este archivo binario es llamado archivo de código objeto.
+
+Un ensamblador es un tipo especial de compilador, también es un programa traductor que lee archivos en código fuente y proporciona como salida archivos en código objeto para ser ejecutados por el CPU. Sin embargo, un ensamblador es un traductor diseñado específicamente para traducir lo que llamamos lenguaje ensamblador en código objeto. Sin embargo tiene una característica muy importante que se pone aparte de los de los compiladores, y es: el control total sobre el código objeto. 
+
 ### Sintaxis
 Nombre de la instrucción Operando 1, Operando 2, Operando 3, Operando 4, Operando N. 
 El nombre de la instrucción está formada por 2 o 3 letras, los operandos pueden ser registros, constantes o direcciones de memoria. La cantidad de operandos dependerá de la instrucción.
