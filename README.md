@@ -54,7 +54,14 @@ Con esto terminariamos el proceso de compilacion, desde un archivo ensamblador h
 
 
 ## LIGADORES
+Es un programa que enlaza todos los programas o módulos obteniendo lo que denominamos programa ejecutable.
 
+Es un programa que enlaza distintos módulos o programas que poseen subprogramas. Además incorporan las denominadas rutinas de librerías en caso de solicitarlas el propio programa.
+
+La generación de un módulo ejecutable a partir de una colección de procedimientos traducidos independientemente requiere un ligador.
+
+### Funcion
+Los editores de ligado pueden efectuar varias funciones últimas a demás de la simple preparación de un programa objeto para su ejecución estos también se pueden utilizar para construir paquetes de subrutinas u otras secciones que suelen utilizar juntas. Esto puede ser útil al tratar con bibliotecas de subrutinas que manejan lenguajes de programación de alto nivel. Comparados con los cargadores de ligadores los editores de ligado en general tienden a ofrecer mayor flexibilidad y control con el correspondiente incremento e complejidad y sobrecarga.
 
 ## BIBLIOTECAS ESTATICAS
 Una librería estática se carga al compilar el programa. Las funciones necesarias de esa librería se copian en tu ejecutable. Si te llevas el ejecutable de un ordenador a otro, el programa funcionará igualmente, aunque en el nuevo ordenador no esté la librería, ya que el ejecutable tiene su propia copia. El problema es que el ejecutable será más grande, ya que lleva copia de las funciones de la librería.
